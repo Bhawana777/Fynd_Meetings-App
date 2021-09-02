@@ -15,11 +15,12 @@ body {
 }
 
 .center {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 400px;
+    height: 400px;
     background: white;
     border-radius: 10px;
     box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
@@ -127,4 +128,16 @@ form .txt_field {
 
 .signup_link a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width:800px) {
+    .center {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .center {
+        width: 80%;
+    }
 }
