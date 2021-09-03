@@ -191,4 +191,9 @@
         margin-left: 20px;
         padding: 1em;
     }
+    .meeting1,
+    .meeting2 {
+        margin-right: 6px;
+        width: 90%;
+    }
 }
