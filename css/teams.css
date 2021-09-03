@@ -35,6 +35,11 @@ html * {
     /*background-color: lightgoldenrodyellow;*/
 }
 
+.line-hr {
+    width: 300px;
+    align-self: center;
+}
+
 #st-box {
     float: left;
     width: 80px;
@@ -117,13 +122,22 @@ min-height: 500px) {
 
 @media screen and (max-width: 375px) {
     .calendar {
+        font-size: small;
         padding: 1em;
+        padding-right: 0;
         margin: 20px 4px 4px 4px;
     }
     .flex-container {
         margin-left: 0;
+        margin-right: 0;
     }
     .flex-container>div {
         margin-left: 0;
+        height: 300px;
+        width: 300px;
+    }
+    .line-hr {
+        width: 270px;
+        align-self: center;
     }
 }

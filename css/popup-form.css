@@ -135,10 +135,11 @@ body {
     .form-popup {
         padding: 0;
         left: -1px;
+        margin-left: 18px;
         margin-right: 20px;
         margin-top: 20px;
         margin-bottom: 50px;
-        width: 285px;
+        width: 320px;
         height: 350px;
         align-content: center;
     }
@@ -146,7 +147,7 @@ body {
         padding: 0;
         margin-left: 3px;
         margin-top: 5px;
-        width: 270px;
+        width: 300px;
         height: 300px;
         align-content: center;
     }
